@@ -13,7 +13,9 @@ public class Main {
         }
 
         double masiv[] = {1.57, 7.654, 9.986};
-        System.out.println(masiv[2]);
+        for (int i=0;i< masiv.length; i++) {
+            System.out.println(masiv[0]+"масив");
+        }
 
         int zero[] = new int[10];
         zero[2] = 15;
