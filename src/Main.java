@@ -4,7 +4,7 @@ public class Main {
 
 
         //задача 1
-        int nomer[] =  {1,2,5};
+        int nomer[] = {1, 2, 5};
         nomer[0] = 1;
         nomer[1] = 2;
         nomer[2] = 3;
@@ -40,9 +40,11 @@ public class Main {
 
         }
         for (int i = masiv.length - 1; i >= 0; i--) {
-            System.out.println("номео" + masiv[i]);
+            System.out.println(masiv[0]);
+            if (i != masiv.length - 1) {
+                System.out.println("цифра" + masiv[i]);
 
-
+            }
         }
         //задание 4
         for (int i = 0; i < masiv.length; i++) {
