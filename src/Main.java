@@ -4,12 +4,12 @@ public class Main {
 
 
         //задача 1
-        int nomer[] = new int[3];
+        int nomer[] =  {1,2,5};
         nomer[0] = 1;
         nomer[1] = 2;
         nomer[2] = 3;
         for (int i = 0; i < nomer.length; i++) {
-            System.out.println(nomer[1]);
+            System.out.println(nomer[i]);
         }
 
         double masiv[] = {1.57, 7.654, 9.986};
@@ -23,33 +23,33 @@ public class Main {
 
 
         //задание 2
-        for (int i = 0; i < masiv[2]; i++) {
+        for (int i = 0; i < masiv.length; i++) {
             System.out.println(masiv[2]);
             if (i != masiv.length - 1) {
-                System.out.println("цифра" + masiv[2]);
+                System.out.println("цифра" + masiv.length);
 
             }
         }
-        for (int i = 0; i < masiv[1]; i++) {
+        for (int i = 0; i < masiv.length; i++) {
             System.out.println(masiv[1]);
             if (i != masiv.length - 1) {
-                System.out.println("цифра" + masiv[1]);
+                System.out.println("цифра" + masiv[i]);
 
 
             }
 
         }
         for (int i = masiv.length - 1; i >= 0; i--) {
-            System.out.println("номео" + masiv[1]);
+            System.out.println("номео" + masiv[i]);
 
 
         }
         //задание 4
         for (int i = 0; i < masiv.length; i++) {
-            if (masiv[1] % 2 == 1) {
+            if (masiv[i] % 2 == 1) {
                 masiv[1]++;
                 System.out.println("округление" + masiv[1]);
-                if (i != masiv[1] - 1) {
+                if (i != masiv[i] - 1) {
                     System.out.println(masiv);
 
 
